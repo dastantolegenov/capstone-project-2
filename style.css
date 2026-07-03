@@ -1,0 +1,260 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#intro {
+    background-color: rgb(158, 145, 226);
+    color: rgb(52, 41, 97);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 60px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro__title {
+    margin-bottom: 30px;
+    color: rgb(85, 71, 144);
+}
+
+.intro__icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__icon {
+    width: 150px;
+}
+
+#experience {
+    margin-bottom: 60px;
+}
+
+.experience__intro {
+    text-align: center;
+}
+
+
+
+#experience>.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.experience__image {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.experience__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgb(85, 71, 144);
+}
+
+.experience__background {
+    margin-bottom: 50px;
+}
+
+.experience__cards {
+    display: grid;
+    gap: 10px;
+}
+
+@media (max-width: 970px) {
+    .experience__cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card__skills {
+        display: block;
+        width: 600px !important;
+    }
+}
+
+.card {
+    width: 600px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(158, 145, 226);
+}
+
+.card__skills {
+    display: block;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    width: 200px;
+}
+
+.card__heading {
+    color: rgb(52, 41, 97);
+}
+
+.card__skills>ul {
+    padding-left: 0;
+}
+
+.card__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    gap: 8px;
+}
+
+.card__text {
+    margin: 0;
+    color: rgb(85, 71, 144);
+    font-weight: 550;
+}
+
+#projects {
+    margin-bottom: 60px;
+}
+
+#projects>.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects__heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(85, 71, 144);
+}
+
+.projects__list {
+    list-style-type: none;
+    padding-left: 0;
+    display: grid;
+    gap: 10px;
+}
+
+.projects__item {
+    width: 500px;
+}
+
+.projects__name {
+    color: rgb(52, 41, 97);
+    margin-bottom: 5px;
+}
+
+.projects__description {
+    margin-top: 0;
+}
+
+#interests>.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.interest__block {
+    background-color: rgb(158, 145, 226);
+    grid-column: 1/2;
+    grid-row: 1/3;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.interests__heading {
+    color: rgb(85, 71, 144);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.interests-and-achievements {
+    display: grid;
+    grid-template-columns: 200px 400px;
+    gap: 10px;
+}
+
+#interests h3 {
+    color: rgb(52, 41, 97);
+    ;
+}
+
+#interests p {
+    color: rgb(85, 71, 144);
+    font-weight: 550;
+}
+
+.interests__list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.achievement__dombyra {
+    background-color: rgb(158, 145, 226);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.achievement__chess {
+    background-color: rgb(158, 145, 226);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#contact {
+    background-color: rgb(158, 145, 226);
+}
+
+#contact>.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__heading {
+    color: rgb(70, 56, 136);
+}
+
+.contact__options {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+    padding-bottom: 20px;
+}
+
+.contact__link {
+    display: block;
+    text-decoration: none;
+}
+
+.contact__gmail {
+    margin: 0 auto;
+    color: white;
+}
+
+.contact__copyright {
+    color: white;
+}
